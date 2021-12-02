@@ -1,0 +1,34 @@
+body{
+    background: url("../OtherResources/background.png") no-repeat fixed;
+    width:100%;
+    height:100%;
+    margin: 0; /*Without this code, you might get a scroll bar.*/
+    background-size: cover;
+}
+
+#content{
+    position: absolute;
+    left:75%;
+    top:44%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width:300px;
+    height:200px;
+}
+
+input{
+    width: 250px;
+    height: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 13px;
+    border: 2px solid #312E3D;
+    border-radius: 4px;
+}
+
+button{
+    background:transparent;
+    border: 0;
+    color: aquamarine;
+    cursor: pointer;
+}

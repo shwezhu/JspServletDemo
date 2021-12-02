@@ -1,0 +1,52 @@
+.top_nav_area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 10%;
+
+    background: cadetblue;
+}
+
+.head {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.sidenav_area {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 10%;
+    height: 100%;
+
+    background: aquamarine;
+}
+
+.sidenav_bar {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    text-align: center;
+
+    background: beige;
+}
+
+.search_area {
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    top: 80px;
+    left: 150px;
+
+    background: antiquewhite;
+}
