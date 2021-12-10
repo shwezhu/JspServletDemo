@@ -50,3 +50,17 @@
 
     background: antiquewhite;
 }
+
+#all_info_area {
+    position: absolute;
+    top: 110px;
+    left: 500px;
+    width: 500px;
+    height: 800px;
+}
+
+#all_search {
+    position: absolute;
+    right: 100px;
+    top: 70px;
+}

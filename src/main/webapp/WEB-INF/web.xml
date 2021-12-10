@@ -9,7 +9,6 @@
     By default server looks for the welcome file in following order:
     welcome-file-list in web.xml
     index.html
-    index.htm
     home.jsp
     If none of these files are found, server renders 404 error-->
     <welcome-file-list>
@@ -35,11 +34,21 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>SearchServletName</servlet-name>
-        <servlet-class>SearchServlet</servlet-class>
+        <servlet-name>GetStudentServletName</servlet-name>
+        <servlet-class>GetStudentServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>SearchServletName</servlet-name>
-        <url-pattern>/SearchServletName</url-pattern>
+        <servlet-name>GetStudentServletName</servlet-name>
+        <url-pattern>/GetStudentServletName</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchStudentServletName</servlet-name>
+        <servlet-class>SearchStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchStudentServletName</servlet-name>
+        <url-pattern>/SearchStudentServletName</url-pattern>
+    </servlet-mapping>
+
 </web-app>
