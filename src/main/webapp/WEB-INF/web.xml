@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
-    <!--A welcome file is the file that is invoked automatically by the server,
-    if you don't specify any file name.
-    By default server looks for the welcome file in following order:
+    <!--
+    A welcome file is the file that is invoked automatically by the server.
+    If you don't specify any file name, by default server looks for the welcome file in following order:
     welcome-file-list in web.xml
     index.html
     home.jsp

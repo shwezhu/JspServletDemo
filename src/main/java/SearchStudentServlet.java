@@ -15,7 +15,8 @@ public class SearchStudentServlet extends HttpServlet {
         Student student = null;
         try {
             //注意，这里的参数，是input标签的name属性的值，而不是id，不然request.getParameter总是返回null哦
-            student = FetchStudentInfo.searchStudent(Integer.parseInt(request.getParameter("student_id")));
+            //name当时用JQuery的时候，是json的对应名字post的data部分
+            student = FetchStudentInfo.searchStudent(Integer.parseInt(request.getParameter("studentID")));
         } catch (NumberFormatException e) {
             e.printStackTrace();
         }

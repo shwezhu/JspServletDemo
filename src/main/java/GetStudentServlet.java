@@ -18,6 +18,7 @@ public class GetStudentServlet extends HttpServlet {
         Gson gson = new Gson();
         JsonElement jsonElement = gson.toJsonTree(studentList, new TypeToken<List<Student>>(){}.getType());
         JsonArray jsonArray = jsonElement.getAsJsonArray();
+
         //Certain request customizations require setting HTTP headers.
         //application/json: Indicates that the request body format is JSON.
         response.setCharacterEncoding("utf-8");

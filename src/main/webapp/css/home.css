@@ -1,4 +1,4 @@
-.top_nav_area {
+.topNavigationArea {
     position: absolute;
     left: 0;
     top: 0;
@@ -21,7 +21,7 @@
     overflow: hidden;
 }
 
-.sidenav_area {
+.leftNavigationArea {
     position: absolute;
     left: 0;
     top: 10%;
@@ -41,7 +41,7 @@
     background: beige;
 }
 
-.search_area {
+.searchArea {
     position: absolute;
     width: 1000px;
     height: 600px;
@@ -51,7 +51,7 @@
     background: antiquewhite;
 }
 
-#all_info_area {
+#allInfoArea {
     position: absolute;
     top: 110px;
     left: 500px;
@@ -59,7 +59,7 @@
     height: 800px;
 }
 
-#all_search {
+#searchAll {
     position: absolute;
     right: 100px;
     top: 70px;
